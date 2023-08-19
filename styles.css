@@ -1,0 +1,42 @@
+/* I want to make this with a grid. I could make it with flexbox also. */
+
+.columns{
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-auto-flow: column;
+}
+
+/* Left side of the card */
+.column-1{
+    background-color: hsl(234, 85%, 45%);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    height:200px;
+
+}
+
+/* Right side of the card */
+.column-2{
+    height: 200px;
+    padding: 15px;
+    background-color: white;
+}
+
+/* List of scores under summary */
+.unordered-list{
+    list-style-type: none;
+}
+
+/* General config */
+body{
+    background-color: hsl(221, 100%, 96%);
+}
+
+/* Continue button */
+button{
+    color: white;
+    background-color: hsl(234, 85%, 45%);
+    border-radius: 25px;
+}

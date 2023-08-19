@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -16,32 +17,37 @@
 </head>
 <body>
 
-  Your Result
-  76
-  of 100
+  <div class="columns">
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+    <div class="column-1">
+      <h1>Your Result</h1>
+      76
+      of 100
 
-  Reaction
-  80 / 100
+      <p>Great</p>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    
+    <div class="column-2">
+      <h2>Summary</h2>
 
-  Memory
-  92 / 100
+      <ul class="unordered-list">
+        <li>Reaction 80 / 100</li>
+        
+        <li>Memory 92 / 100</li>
 
-  Verbal
-  61 / 100
+        <li>Verbal 61 / 100</li>
 
-  Visual
-  72 / 100
+        <li>Visual 72 / 100</li>
+      </ul>
 
-  Continue
+      <button>Continue</button>
+    </div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/mhaggard25">Matthew Haggard</a>.
   </div>
 </body>
 </html>
